@@ -8,9 +8,9 @@ function App() {
   return (
     <>
     <Router>
-      <Suspense fallback={Loader}>
+      <Suspense fallback={<Loader />}>
         <Routes>
-          <Route path='/' element={<HoldingPage />} />
+          <Route path='/' element={<HoldingPage/>} />
         </Routes>
       </Suspense>
     </Router>

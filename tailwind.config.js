@@ -4,7 +4,8 @@ module.exports = {
     require("darker-software-tailwind-config/theme/darker.software.tailwind")
   ],
   content: [
-    "./src/**/*.js"
+    "./src/**/*.js",
+    "./public/**/*.html"
   ],
   theme: {
     extend: {},
