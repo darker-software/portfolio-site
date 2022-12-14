@@ -1,6 +1,7 @@
 import Logo from  "./../lib/assets/logo.svg"
 
 export default function HoldingPage() {
+	// Add classes to wrappers to extend full height of page to middle align items
 	document.querySelector("html").classList.add("h-full", "bg-gray-dark");
 	document.querySelector("body").classList.add("h-full");
 	document.querySelector("#root").classList.add("h-full");
