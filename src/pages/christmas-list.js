@@ -1,7 +1,7 @@
 export default function HoldingPage() {
     return (
         <div className="flex items-center justify-center min-h-full px-4 py-12 my-auto sm:px-6 lg:px-8">
-            <div className="w-full md:w-1/2 dark:text-gray-light text-gray-dark">
+            <div className="w-full px-3 md:px-0 md:w-1/2 dark:text-gray-light text-gray-dark">
                 <h1
                     className="mb-2 text-4xl text-center text-purple-dark dark:text-purple-light"
                     id="jake-s-christmas-list"
